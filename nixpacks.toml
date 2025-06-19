@@ -8,4 +8,5 @@ cmds = [
 ]
 
 [start]
-cmd = "node backend/server.js"  # <--- cámbialo por tu archivo real
+cmd = "npm start --prefix backend"
+                                     
