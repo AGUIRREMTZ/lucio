@@ -1,16 +1,14 @@
 [phases.setup]
-nixPkgs = ["nodejs","npm"]
-
-[start]
-cmd = "node backend/index.js"
-
-[variables]
-NODE_VERSION = "18"
+nixPkgs = ["nodejs_18"]
 
 [phases.install]
 cmds = [
   "cd backend",
   "npm install"
 ]
+
 [phases.build]
 cmds = []
+
+[start]
+cmd = "node backend/index.js"
