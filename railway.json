@@ -8,11 +8,6 @@
             "cd backend && npm install"
           ]
         },
-        "build": {
-          "cmds": [
-            "cd backend && npm run build"
-          ]
-        },
         "start": {
           "cmd": "cd backend && npm start"
         }
