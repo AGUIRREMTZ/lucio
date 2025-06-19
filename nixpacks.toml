@@ -2,4 +2,4 @@
 nixPkgs = ["nodejs","npm"]
 
 [start]
-cmd = "cd backend && npm start"
+cmd = "node backend/index.js"
